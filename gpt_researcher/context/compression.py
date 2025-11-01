@@ -2,10 +2,10 @@ import os
 import asyncio
 from typing import Optional
 from .retriever import SearchAPIRetriever, SectionRetriever
-from langchain.retrievers import (
+from langchain_community.retrievers import (
     ContextualCompressionRetriever,
 )
-from langchain.retrievers.document_compressors import (
+from langchain_community.retrievers.document_compressors import (
     DocumentCompressorPipeline,
     EmbeddingsFilter,
 )
